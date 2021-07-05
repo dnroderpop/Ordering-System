@@ -1,0 +1,793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.SourceLink.GitHub.1.0.0\build\Microsoft.SourceLink.GitHub.props" Condition="Exists('..\packages\Microsoft.SourceLink.GitHub.1.0.0\build\Microsoft.SourceLink.GitHub.props')" />
+  <Import Project="..\packages\Microsoft.SourceLink.Common.1.0.0\build\Microsoft.SourceLink.Common.props" Condition="Exists('..\packages\Microsoft.SourceLink.Common.1.0.0\build\Microsoft.SourceLink.Common.props')" />
+  <Import Project="..\packages\Microsoft.Build.Tasks.Git.1.0.0\build\Microsoft.Build.Tasks.Git.props" Condition="Exists('..\packages\Microsoft.Build.Tasks.Git.1.0.0\build\Microsoft.Build.Tasks.Git.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F803871F-543D-44B3-88E4-9F4E314BB027}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Ordering_System.My.MyApplication</StartupObject>
+    <RootNamespace>Ordering_System</RootNamespace>
+    <AssemblyName>Ordering System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>Off</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.16.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 8.0.16\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="All Reports\creports_mr.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>creports_mr.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="All Reports\creport_checksum.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>creport_checksum.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="All Reports\creport_deliveries.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>creport_deliveries.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="All Reports\creport_excel.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>creport_excel.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="All Reports\creport_mr_prod.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>creport_mr_prod.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="All Reports\creport_mr_graph_branch.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>creport_mr_graph_branch.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="All Reports\creport_mr_graph_product.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>creport_mr_graph_product.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="All Reports\creport_products.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>creport_products.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="All Reports\creport_rawmats.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>creport_rawmats.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="All Reports\creport_deped.vb">
+      <DependentUpon>creport_deped.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="All Reports\creport_sts_pahabol.vb">
+      <DependentUpon>creport_sts_pahabol.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="All Reports\creport_sts_order.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>creport_sts_order.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="connn.Designer.vb">
+      <DependentUpon>connn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="connn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="conset.Designer.vb">
+      <DependentUpon>conset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="conset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginModule\login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginModule\login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginModule\register.Designer.vb">
+      <DependentUpon>register.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginModule\register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Adjustment\functions_adjustment.vb" />
+    <Compile Include="MainModule\Adjustment\Lessover\adjust_lestover.Designer.vb">
+      <DependentUpon>adjust_lestover.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Adjustment\Lessover\adjust_lestover.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Delivery\dataset_delivery.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dataset_delivery.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Delivery\dataset_delivery.vb">
+      <DependentUpon>dataset_delivery.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Delivery\deliver_assign.Designer.vb">
+      <DependentUpon>deliver_assign.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Delivery\deliver_assign.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainModule\Delivery\del_prod.Designer.vb">
+      <DependentUpon>del_prod.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Delivery\del_prod.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Delivery\print_delivery.Designer.vb">
+      <DependentUpon>print_delivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Delivery\print_delivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Mainmenu.Designer.vb">
+      <DependentUpon>Mainmenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Mainmenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="All Reports\creport_forecast.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>creport_forecast.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainModule\master_table.Designer.vb">
+      <DependentUpon>master_table.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\master_table.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Report\crystalexport.vb" />
+    <Compile Include="MainModule\Report\Generate Sts\loading_sts_forecast.Designer.vb">
+      <DependentUpon>loading_sts_forecast.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Report\Generate Sts\loading_sts_forecast.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Report\Generate Sts\reporting_forecast_sts.Designer.vb">
+      <DependentUpon>reporting_forecast_sts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Report\Generate Sts\reporting_forecast_sts.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainModule\Report\Generate Sts\reporting_sts.Designer.vb">
+      <DependentUpon>reporting_sts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Report\Generate Sts\reporting_sts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Report\Generate Pahabol\reporting_sts_onday.Designer.vb">
+      <DependentUpon>reporting_sts_onday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Report\Generate Pahabol\reporting_sts_onday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Report\MR\mr_panel.Designer.vb">
+      <DependentUpon>mr_panel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Report\MR\mr_panel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainModule\Report\ReportViewer\report_generate_check.Designer.vb">
+      <DependentUpon>report_generate_check.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Report\ReportViewer\report_generate_check.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Report\ReportViewer\report_generate_deped.Designer.vb">
+      <DependentUpon>report_generate_deped.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Report\ReportViewer\report_generate_deped.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Report\ReportViewer\report_generate_pahabol_onday.Designer.vb">
+      <DependentUpon>report_generate_pahabol_onday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Report\ReportViewer\report_generate_pahabol_onday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Report\ReportViewer\report_generate_products.Designer.vb">
+      <DependentUpon>report_generate_products.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Report\ReportViewer\report_generate_products.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Report\ReportViewer\report_generate_sts.Designer.vb">
+      <DependentUpon>report_generate_sts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Report\ReportViewer\report_generate_sts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Report\ReportViewer\report_generate_sts_pa.Designer.vb">
+      <DependentUpon>report_generate_sts_pa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Report\ReportViewer\report_generate_sts_pa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Report\reporting_forecast.Designer.vb">
+      <DependentUpon>reporting_forecast.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Report\reporting_forecast.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainModule\Report\ReportViewer\report_generate_forecast.Designer.vb">
+      <DependentUpon>report_generate_forecast.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Report\ReportViewer\report_generate_forecast.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Resources\resources_branch.Designer.vb">
+      <DependentUpon>resources_branch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Resources\resources_branch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Resources\resources_product.Designer.vb">
+      <DependentUpon>resources_product.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Resources\resources_product.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainModule\Resources\resources_rawmat.Designer.vb">
+      <DependentUpon>resources_rawmat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Resources\resources_rawmat.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainModule\Resources\resources_recipe.Designer.vb">
+      <DependentUpon>resources_recipe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Resources\resources_recipe.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainModule\Resources\resources_supplier.Designer.vb">
+      <DependentUpon>resources_supplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Resources\resources_supplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Transaction\ShowTableForOrder\trans_show_forcast.Designer.vb">
+      <DependentUpon>trans_show_forcast.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Transaction\ShowTableForOrder\trans_show_forcast.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Transaction\trans_forcast pickbranch\frm_branch.Designer.vb">
+      <DependentUpon>frm_branch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Transaction\trans_forcast pickbranch\frm_branch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\Transaction\trans_Forcast.Designer.vb">
+      <DependentUpon>trans_Forcast.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Transaction\trans_Forcast.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainModule\Transaction\trans_pahabol_onday\trans_pahabol.Designer.vb">
+      <DependentUpon>trans_pahabol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\Transaction\trans_pahabol_onday\trans_pahabol.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainModule\Trans_Class\transactionRawMat.vb" />
+    <Compile Include="MainModule\uf_black_menu.Designer.vb">
+      <DependentUpon>uf_black_menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\uf_black_menu.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MainModule\User Management\Master_Product.Designer.vb">
+      <DependentUpon>Master_Product.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\User Management\Master_Product.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\User Management\UF_user_accountsettings.Designer.vb">
+      <DependentUpon>UF_user_accountsettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\User Management\UF_user_accountsettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainModule\User Management\UF_user_manageaccounts.Designer.vb">
+      <DependentUpon>UF_user_manageaccounts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainModule\User Management\UF_user_manageaccounts.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="All Reports\creports_mr.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>creports_mr.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="All Reports\creport_checksum.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>creport_checksum.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="All Reports\creport_deliveries.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>creport_deliveries.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="All Reports\creport_excel.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>creport_excel.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="All Reports\creport_mr_prod.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>creport_mr_prod.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="All Reports\creport_mr_graph_branch.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>creport_mr_graph_branch.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="All Reports\creport_mr_graph_product.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>creport_mr_graph_product.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="All Reports\creport_products.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>creport_products.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="All Reports\creport_rawmats.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>creport_rawmats.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="All Reports\creport_deped.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>creport_deped.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="All Reports\creport_sts_pahabol.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>creport_sts_pahabol.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="All Reports\creport_sts_order.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>creport_sts_order.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="connn.resx">
+      <DependentUpon>connn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="conset.resx">
+      <DependentUpon>conset.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginModule\login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginModule\register.resx">
+      <DependentUpon>register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Adjustment\Lessover\adjust_lestover.resx">
+      <DependentUpon>adjust_lestover.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Delivery\deliver_assign.resx">
+      <DependentUpon>deliver_assign.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Delivery\del_prod.resx">
+      <DependentUpon>del_prod.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Delivery\print_delivery.resx">
+      <DependentUpon>print_delivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Mainmenu.resx">
+      <DependentUpon>Mainmenu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="All Reports\creport_forecast.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>creport_forecast.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\master_table.resx">
+      <DependentUpon>master_table.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Report\Generate Sts\loading_sts_forecast.resx">
+      <DependentUpon>loading_sts_forecast.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Report\Generate Sts\reporting_forecast_sts.resx">
+      <DependentUpon>reporting_forecast_sts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Report\Generate Sts\reporting_sts.resx">
+      <DependentUpon>reporting_sts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Report\Generate Pahabol\reporting_sts_onday.resx">
+      <DependentUpon>reporting_sts_onday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Report\MR\mr_panel.resx">
+      <DependentUpon>mr_panel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Report\ReportViewer\report_generate_check.resx">
+      <DependentUpon>report_generate_check.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Report\ReportViewer\report_generate_deped.resx">
+      <DependentUpon>report_generate_deped.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Report\ReportViewer\report_generate_pahabol_onday.resx">
+      <DependentUpon>report_generate_pahabol_onday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Report\ReportViewer\report_generate_products.resx">
+      <DependentUpon>report_generate_products.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Report\ReportViewer\report_generate_sts.resx">
+      <DependentUpon>report_generate_sts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Report\ReportViewer\report_generate_sts_pa.resx">
+      <DependentUpon>report_generate_sts_pa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Report\reporting_forecast.resx">
+      <DependentUpon>reporting_forecast.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Report\ReportViewer\report_generate_forecast.resx">
+      <DependentUpon>report_generate_forecast.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Resources\resources_branch.resx">
+      <DependentUpon>resources_branch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Resources\resources_product.resx">
+      <DependentUpon>resources_product.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Resources\resources_rawmat.resx">
+      <DependentUpon>resources_rawmat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Resources\resources_recipe.resx">
+      <DependentUpon>resources_recipe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Resources\resources_supplier.resx">
+      <DependentUpon>resources_supplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Transaction\ShowTableForOrder\trans_show_forcast.resx">
+      <DependentUpon>trans_show_forcast.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Transaction\trans_forcast pickbranch\frm_branch.resx">
+      <DependentUpon>frm_branch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Transaction\trans_Forcast.resx">
+      <DependentUpon>trans_Forcast.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\Transaction\trans_pahabol_onday\trans_pahabol.resx">
+      <DependentUpon>trans_pahabol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\uf_black_menu.resx">
+      <DependentUpon>uf_black_menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\User Management\Master_Product.resx">
+      <DependentUpon>Master_Product.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\User Management\UF_user_accountsettings.resx">
+      <DependentUpon>UF_user_accountsettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainModule\User Management\UF_user_manageaccounts.resx">
+      <DependentUpon>UF_user_manageaccounts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MainModule\Delivery\dataset_delivery.xsc">
+      <DependentUpon>dataset_delivery.xsd</DependentUpon>
+    </None>
+    <None Include="MainModule\Delivery\dataset_delivery.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dataset_delivery.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="MainModule\Delivery\dataset_delivery.xss">
+      <DependentUpon>dataset_delivery.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\MT Logo Square %28small%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toppaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administrator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_property.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checked_checkbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checked_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\combo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_property.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disconnected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\documents.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downloads.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_image_512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_property.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empty_box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filled_box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list_ingredients_512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multiply.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\package.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purchase_order.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remove_image_512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_basket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-trash-filled-24.png" />
+    <None Include="Resources\icons8-search-24.png" />
+    <None Include="Resources\icons8-delete-30.png" />
+    <None Include="Resources\icons8-share-3-30.png" />
+    <None Include="Resources\icons8-delete-30 %281%29.png" />
+    <None Include="Resources\icons8-share-3-30 %281%29.png" />
+    <None Include="Resources\icons8-search-24 %281%29.png" />
+    <None Include="Resources\icons8-refresh-30.png" />
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataManagement\" />
+    <Folder Include="MainModule\Inventory\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Build.Tasks.Git.1.0.0\build\Microsoft.Build.Tasks.Git.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Build.Tasks.Git.1.0.0\build\Microsoft.Build.Tasks.Git.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.Build.Tasks.Git.1.0.0\build\Microsoft.Build.Tasks.Git.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Build.Tasks.Git.1.0.0\build\Microsoft.Build.Tasks.Git.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.SourceLink.Common.1.0.0\build\Microsoft.SourceLink.Common.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.SourceLink.Common.1.0.0\build\Microsoft.SourceLink.Common.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.SourceLink.Common.1.0.0\build\Microsoft.SourceLink.Common.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.SourceLink.Common.1.0.0\build\Microsoft.SourceLink.Common.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.SourceLink.GitHub.1.0.0\build\Microsoft.SourceLink.GitHub.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.SourceLink.GitHub.1.0.0\build\Microsoft.SourceLink.GitHub.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.SourceLink.GitHub.1.0.0\build\Microsoft.SourceLink.GitHub.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.SourceLink.GitHub.1.0.0\build\Microsoft.SourceLink.GitHub.targets'))" />
+  </Target>
+  <Import Project="..\packages\Microsoft.Build.Tasks.Git.1.0.0\build\Microsoft.Build.Tasks.Git.targets" Condition="Exists('..\packages\Microsoft.Build.Tasks.Git.1.0.0\build\Microsoft.Build.Tasks.Git.targets')" />
+  <Import Project="..\packages\Microsoft.SourceLink.Common.1.0.0\build\Microsoft.SourceLink.Common.targets" Condition="Exists('..\packages\Microsoft.SourceLink.Common.1.0.0\build\Microsoft.SourceLink.Common.targets')" />
+  <Import Project="..\packages\Microsoft.SourceLink.GitHub.1.0.0\build\Microsoft.SourceLink.GitHub.targets" Condition="Exists('..\packages\Microsoft.SourceLink.GitHub.1.0.0\build\Microsoft.SourceLink.GitHub.targets')" />
+</Project>
