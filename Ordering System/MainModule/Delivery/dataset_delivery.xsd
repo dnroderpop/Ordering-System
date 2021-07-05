@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dataset_delivery" targetNamespace="http://tempuri.org/dataset_delivery.xsd" xmlns:mstns="http://tempuri.org/dataset_delivery.xsd" xmlns="http://tempuri.org/dataset_delivery.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (MySettings)" PropertyReference="ApplicationSettings.Ordering_System.My.MySettings.GlobalReference.Default.ConnectionString" Provider="System.Data.Odbc" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString1 (MySettings)" PropertyReference="ApplicationSettings.Ordering_System.My.MySettings.GlobalReference.Default.ConnectionString1" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dataset_delivery" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dataset_delivery" msprop:Generator_UserDSName="dataset_delivery">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="stsid" msprop:Generator_ColumnVarNameInTable="columnstsid" msprop:Generator_ColumnPropNameInRow="stsid" msprop:Generator_ColumnPropNameInTable="stsidColumn" msprop:Generator_UserColumnName="stsid">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="115" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="prod" msprop:Generator_ColumnVarNameInTable="columnprod" msprop:Generator_ColumnPropNameInRow="prod" msprop:Generator_ColumnPropNameInTable="prodColumn" msprop:Generator_UserColumnName="prod">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="112" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="qty" msprop:Generator_ColumnVarNameInTable="columnqty" msprop:Generator_ColumnPropNameInRow="qty" msprop:Generator_ColumnPropNameInTable="qtyColumn" msprop:Generator_UserColumnName="qty" type="xs:int" />
+              <xs:element name="unt" msprop:Generator_ColumnVarNameInTable="columnunt" msprop:Generator_ColumnPropNameInRow="unt" msprop:Generator_ColumnPropNameInTable="untColumn" msprop:Generator_UserColumnName="unt" type="xs:double" />
+              <xs:element name="tamt" msprop:Generator_ColumnVarNameInTable="columntamt" msprop:Generator_ColumnPropNameInRow="tamt" msprop:Generator_ColumnPropNameInTable="tamtColumn" msprop:Generator_UserColumnName="tamt" type="xs:double" />
+              <xs:element name="cat" msprop:Generator_ColumnVarNameInTable="columncat" msprop:Generator_ColumnPropNameInRow="cat" msprop:Generator_ColumnPropNameInTable="catColumn" msprop:Generator_UserColumnName="cat">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="time" msprop:Generator_ColumnVarNameInTable="columntime" msprop:Generator_ColumnPropNameInRow="time" msprop:Generator_ColumnPropNameInTable="timeColumn" msprop:Generator_UserColumnName="time">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="branch" msprop:Generator_ColumnVarNameInTable="columnbranch" msprop:Generator_ColumnPropNameInRow="branch" msprop:Generator_ColumnPropNameInTable="branchColumn" msprop:Generator_UserColumnName="branch" type="xs:int" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="_Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:dateTime" />
+              <xs:element name="Batch" msprop:Generator_ColumnVarNameInTable="columnBatch" msprop:Generator_ColumnPropNameInRow="Batch" msprop:Generator_ColumnPropNameInTable="BatchColumn" msprop:Generator_UserColumnName="Batch" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable2" msprop:Generator_TableClassName="DataTable2DataTable" msprop:Generator_TableVarName="tableDataTable2" msprop:Generator_TablePropName="DataTable2" msprop:Generator_RowDeletingName="DataTable2RowDeleting" msprop:Generator_RowChangingName="DataTable2RowChanging" msprop:Generator_RowEvHandlerName="DataTable2RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable2RowDeleted" msprop:Generator_UserTableName="DataTable2" msprop:Generator_RowChangedName="DataTable2RowChanged" msprop:Generator_RowEvArgName="DataTable2RowChangeEvent" msprop:Generator_RowClassName="DataTable2Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="prod" msprop:Generator_ColumnVarNameInTable="columnprod" msprop:Generator_ColumnPropNameInRow="prod" msprop:Generator_ColumnPropNameInTable="prodColumn" msprop:Generator_UserColumnName="prod">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MT-Tetuan" msprop:Generator_ColumnVarNameInTable="_columnMT_Tetuan" msprop:Generator_ColumnPropNameInRow="_MT_Tetuan" msprop:Generator_ColumnPropNameInTable="_MT_TetuanColumn" msprop:Generator_UserColumnName="MT-Tetuan" type="xs:int" />
+              <xs:element name="MT-IBT" msprop:Generator_ColumnVarNameInTable="_columnMT_IBT" msprop:Generator_ColumnPropNameInRow="_MT_IBT" msprop:Generator_ColumnPropNameInTable="_MT_IBTColumn" msprop:Generator_UserColumnName="MT-IBT" type="xs:int" />
+              <xs:element name="MT-Claret" msprop:Generator_ColumnVarNameInTable="_columnMT_Claret" msprop:Generator_ColumnPropNameInRow="_MT_Claret" msprop:Generator_ColumnPropNameInTable="_MT_ClaretColumn" msprop:Generator_UserColumnName="MT-Claret" type="xs:int" />
+              <xs:element name="MT-Putik" msprop:Generator_ColumnVarNameInTable="_columnMT_Putik" msprop:Generator_ColumnPropNameInRow="_MT_Putik" msprop:Generator_ColumnPropNameInTable="_MT_PutikColumn" msprop:Generator_UserColumnName="MT-Putik" type="xs:int" />
+              <xs:element name="MT-Tomas" msprop:Generator_ColumnVarNameInTable="_columnMT_Tomas" msprop:Generator_ColumnPropNameInRow="_MT_Tomas" msprop:Generator_ColumnPropNameInTable="_MT_TomasColumn" msprop:Generator_UserColumnName="MT-Tomas" type="xs:int" />
+              <xs:element name="MT-Cor" msprop:Generator_ColumnVarNameInTable="_columnMT_Cor" msprop:Generator_ColumnPropNameInRow="_MT_Cor" msprop:Generator_ColumnPropNameInTable="_MT_CorColumn" msprop:Generator_UserColumnName="MT-Cor" type="xs:int" />
+              <xs:element name="MT-Plaza" msprop:Generator_ColumnVarNameInTable="_columnMT_Plaza" msprop:Generator_ColumnPropNameInRow="_MT_Plaza" msprop:Generator_ColumnPropNameInTable="_MT_PlazaColumn" msprop:Generator_UserColumnName="MT-Plaza" type="xs:int" />
+              <xs:element name="MT-Gen" msprop:Generator_ColumnVarNameInTable="_columnMT_Gen" msprop:Generator_ColumnPropNameInRow="_MT_Gen" msprop:Generator_ColumnPropNameInTable="_MT_GenColumn" msprop:Generator_UserColumnName="MT-Gen" type="xs:int" />
+              <xs:element name="MT-JS" msprop:Generator_ColumnVarNameInTable="_columnMT_JS" msprop:Generator_ColumnPropNameInRow="_MT_JS" msprop:Generator_ColumnPropNameInTable="_MT_JSColumn" msprop:Generator_UserColumnName="MT-JS" type="xs:int" />
+              <xs:element name="MT-GOV" msprop:Generator_ColumnVarNameInTable="_columnMT_GOV" msprop:Generator_ColumnPropNameInRow="_MT_GOV" msprop:Generator_ColumnPropNameInTable="_MT_GOVColumn" msprop:Generator_UserColumnName="MT-GOV" type="xs:int" />
+              <xs:element name="MT-Lapu" msprop:Generator_ColumnVarNameInTable="_columnMT_Lapu" msprop:Generator_ColumnPropNameInRow="_MT_Lapu" msprop:Generator_ColumnPropNameInTable="_MT_LapuColumn" msprop:Generator_UserColumnName="MT-Lapu" type="xs:int" />
+              <xs:element name="MT-IPT" msprop:Generator_ColumnVarNameInTable="_columnMT_IPT" msprop:Generator_ColumnPropNameInRow="_MT_IPT" msprop:Generator_ColumnPropNameInTable="_MT_IPTColumn" msprop:Generator_UserColumnName="MT-IPT" type="xs:int" />
+              <xs:element name="MT-Cafeteria" msprop:Generator_ColumnVarNameInTable="_columnMT_Cafeteria" msprop:Generator_ColumnPropNameInRow="_MT_Cafeteria" msprop:Generator_ColumnPropNameInTable="_MT_CafeteriaColumn" msprop:Generator_UserColumnName="MT-Cafeteria" type="xs:int" />
+              <xs:element name="category" msprop:Generator_ColumnVarNameInTable="columncategory" msprop:Generator_ColumnPropNameInRow="category" msprop:Generator_ColumnPropNameInTable="categoryColumn" msprop:Generator_UserColumnName="category">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Total_x0020_Batch_x0020_per_x0020_Yielding" msprop:Generator_ColumnVarNameInTable="columnTotal_Batch_per_Yielding" msprop:Generator_ColumnPropNameInRow="Total_Batch_per_Yielding" msprop:Generator_ColumnPropNameInTable="Total_Batch_per_YieldingColumn" msprop:Generator_UserColumnName="Total Batch per Yielding">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="mrtable" msprop:Generator_TableClassName="mrtableDataTable" msprop:Generator_TableVarName="tablemrtable" msprop:Generator_RowChangedName="mrtableRowChanged" msprop:Generator_TablePropName="mrtable" msprop:Generator_RowDeletingName="mrtableRowDeleting" msprop:Generator_RowChangingName="mrtableRowChanging" msprop:Generator_RowEvHandlerName="mrtableRowChangeEventHandler" msprop:Generator_RowDeletedName="mrtableRowDeleted" msprop:Generator_RowClassName="mrtableRow" msprop:Generator_UserTableName="mrtable" msprop:Generator_RowEvArgName="mrtableRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="stsid" msprop:Generator_ColumnVarNameInTable="columnstsid" msprop:Generator_ColumnPropNameInRow="stsid" msprop:Generator_ColumnPropNameInTable="stsidColumn" msprop:Generator_UserColumnName="stsid">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="115" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="prod" msprop:Generator_ColumnVarNameInTable="columnprod" msprop:Generator_ColumnPropNameInRow="prod" msprop:Generator_ColumnPropNameInTable="prodColumn" msprop:Generator_UserColumnName="prod">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="112" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="qty" msprop:Generator_ColumnVarNameInTable="columnqty" msprop:Generator_ColumnPropNameInRow="qty" msprop:Generator_ColumnPropNameInTable="qtyColumn" msprop:Generator_UserColumnName="qty" type="xs:int" />
+              <xs:element name="unt" msprop:Generator_ColumnVarNameInTable="columnunt" msprop:Generator_ColumnPropNameInRow="unt" msprop:Generator_ColumnPropNameInTable="untColumn" msprop:Generator_UserColumnName="unt" type="xs:double" />
+              <xs:element name="tamt" msprop:Generator_ColumnVarNameInTable="columntamt" msprop:Generator_ColumnPropNameInRow="tamt" msprop:Generator_ColumnPropNameInTable="tamtColumn" msprop:Generator_UserColumnName="tamt" type="xs:double" />
+              <xs:element name="cat" msprop:Generator_ColumnVarNameInTable="columncat" msprop:Generator_ColumnPropNameInRow="cat" msprop:Generator_ColumnPropNameInTable="catColumn" msprop:Generator_UserColumnName="cat">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="branch" msprop:Generator_ColumnVarNameInTable="columnbranch" msprop:Generator_ColumnPropNameInRow="branch" msprop:Generator_ColumnPropNameInTable="branchColumn" msprop:Generator_UserColumnName="branch">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="155" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="mtsum" msprop:Generator_TableClassName="mtsumDataTable" msprop:Generator_TableVarName="tablemtsum" msprop:Generator_TablePropName="mtsum" msprop:Generator_RowDeletingName="mtsumRowDeleting" msprop:Generator_RowChangingName="mtsumRowChanging" msprop:Generator_RowEvHandlerName="mtsumRowChangeEventHandler" msprop:Generator_RowDeletedName="mtsumRowDeleted" msprop:Generator_UserTableName="mtsum" msprop:Generator_RowChangedName="mtsumRowChanged" msprop:Generator_RowEvArgName="mtsumRowChangeEvent" msprop:Generator_RowClassName="mtsumRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" minOccurs="0" />
+              <xs:element name="product" msprop:Generator_ColumnVarNameInTable="columnproduct" msprop:Generator_ColumnPropNameInRow="product" msprop:Generator_ColumnPropNameInTable="productColumn" msprop:Generator_UserColumnName="product">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="total" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_UserColumnName="total" type="xs:double" />
+              <xs:element name="Actual" msprop:Generator_ColumnVarNameInTable="columnActual" msprop:Generator_ColumnPropNameInRow="Actual" msprop:Generator_ColumnPropNameInTable="ActualColumn" msprop:Generator_UserColumnName="Actual" type="xs:int" />
+              <xs:element name="Second_del" msprop:Generator_ColumnVarNameInTable="columnSecond_del" msprop:Generator_ColumnPropNameInRow="Second_del" msprop:Generator_ColumnPropNameInTable="Second_delColumn" msprop:Generator_UserColumnName="Second_del" type="xs:int" />
+              <xs:element name="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" msprop:Generator_UserColumnName="Remarks">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="DataTable2_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable2" />
+      <xs:field xpath="mstns:prod" />
+    </xs:unique>
+    <xs:unique name="mrtable_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:mrtable" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="mtsum_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:mtsum" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

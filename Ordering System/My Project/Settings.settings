@@ -1,0 +1,37 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="serverdb" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.1.19</Value>
+    </Setting>
+    <Setting Name="userdb" Type="System.String" Scope="User">
+      <Value Profile="(Default)">rod</Value>
+    </Setting>
+    <Setting Name="passdb" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mangtinapaychoco</Value>
+    </Setting>
+    <Setting Name="namedb" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mangtinapay</Value>
+    </Setting>
+    <Setting Name="myuserid" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Dsn=Mysql MangTinapay Database&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.Odbc&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Dsn=Mysql MangTinapay Database</Value>
+    </Setting>
+    <Setting Name="ConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Dsn=Mysql Mang Tinapay Database;uid=rod;pwd=mangtinapaychoco&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.Odbc&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Dsn=Mysql Mang Tinapay Database;uid=rod;pwd=mangtinapaychoco</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
