@@ -1,0 +1,254 @@
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\Ordering System.exe.config
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\Ordering System.exe
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\Ordering System.pdb
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\Ordering System.xml
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\FlashControlV71.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\MySql.Data.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\EnvDTE.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\Google.Protobuf.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\stdole.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\MySql.Data.xml
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering_System.connn.resources
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering_System.conset.resources
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering_System.login.resources
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering_System.register.resources
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering_System.Mainmenu.resources
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering_System.reporting_forecast.resources
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering_System.report_generate_forecast.resources
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering_System.resources_branch.resources
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering_System.resources_product.resources
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering_System.resources_rawmat.resources
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering_System.resources_recipe.resources
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering_System.resources_supplier.resources
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering_System.frm_branch.resources
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering_System.trans_Forcast.resources
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering_System.uf_black_menu.resources
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering_System.UF_user_accountsettings.resources
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering_System.UF_user_manageaccounts.resources
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering_System.Resources.resources
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering System.vbproj.GenerateResource.cache
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering System.vbproj.CoreCompileInputs.cache
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering System.vbproj.CopyComplete
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering System.exe
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering System.xml
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering System.pdb
+C:\Users\Artist\source\repos\Ordering System\Ordering System\obj\Debug\Ordering System.vbprojAssemblyReference.cache
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\Ordering System.exe.config
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\Ordering System.exe
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\Ordering System.pdb
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\FlashControlV71.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\MySql.Data.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\Google.Protobuf.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\stdole.dll
+C:\Users\Artist\Desktop\Ordering System\Ordering System\bin\Debug\MySql.Data.xml
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.connn.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.conset.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.login.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.register.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.adjust_lestover.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.deliver_assign.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.del_prod.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.print_delivery.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.Mainmenu.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.master_table.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.loading_sts_forecast.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.reporting_forecast_sts.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.reporting_sts.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.reporting_sts_onday.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.mr_panel.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.report_generate_check.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.report_generate_pahabol_onday.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.report_generate_products.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.report_generate_sts.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.report_generate_sts_pa.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.reporting_forecast.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.report_generate_forecast.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.resources_branch.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.resources_product.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.resources_rawmat.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.resources_recipe.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.resources_supplier.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.trans_show_forcast.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.frm_branch.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.trans_Forcast.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.trans_pahabol.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.uf_black_menu.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.Master_Product.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.UF_user_accountsettings.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.UF_user_manageaccounts.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.Resources.resources
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering System.vbproj.GenerateResource.cache
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering System.vbproj.CoreCompileInputs.cache
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering System.vbproj.CopyComplete
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering System.exe
+C:\Users\Artist\Desktop\Ordering System\Ordering System\obj\Debug\Ordering System.pdb
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\Ordering System.exe.config
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\Ordering System.exe
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\Ordering System.pdb
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\FlashControlV71.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\MySql.Data.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\Google.Protobuf.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\stdole.dll
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\bin\Debug\MySql.Data.xml
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.connn.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.conset.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.login.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.register.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.adjust_lestover.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.deliver_assign.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.del_prod.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.print_delivery.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.Mainmenu.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.master_table.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.loading_sts_forecast.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.reporting_forecast_sts.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.reporting_sts.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.reporting_sts_onday.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.mr_panel.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.report_generate_check.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.report_generate_pahabol_onday.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.report_generate_products.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.report_generate_sts.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.report_generate_sts_pa.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.reporting_forecast.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.report_generate_forecast.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.resources_branch.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.resources_product.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.resources_rawmat.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.resources_recipe.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.resources_supplier.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.trans_show_forcast.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.frm_branch.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.trans_Forcast.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.trans_pahabol.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.uf_black_menu.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.Master_Product.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.UF_user_accountsettings.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.UF_user_manageaccounts.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering_System.Resources.resources
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering System.vbproj.GenerateResource.cache
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering System.vbproj.CoreCompileInputs.cache
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering System.vbproj.CopyComplete
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering System.exe
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering System.pdb
+C:\Users\IT-Admin\Desktop\Ordering System\Ordering System\obj\Debug\Ordering System.vbprojAssemblyReference.cache
